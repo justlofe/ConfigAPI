@@ -1,0 +1,6 @@
+name: ConfigL
+version: '1.0'
+main: pb.lofe.configl.ConfigL
+api-version: 1.19
+authors: [ just_lofe ]
+website: https://t.me/+jdEGFkoI-_dlYjZi
