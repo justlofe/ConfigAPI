@@ -3,7 +3,7 @@ A simple Plugin API for plugin developers that allows you to create additional c
 
 # How to use
 1. Add .jar as a library to your project
-2. Create config file: ```ConfigAPI.FastConfig cfg = new ConfigAPI.FastConfig("name.yml", plugin.getDataFolder());```
+2. Create config file: ```CAPI.Config cfg = new CAPI.Config("name.yml", plugin.getDataFolder());```
 3. Input: ```cfg.getConfig.set("Player." + player.getName() + ".Score", value);```
 4. Save: ```cfg.save;```
 
