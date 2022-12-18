@@ -15,4 +15,6 @@ Player:
 ```
 5. Read: ```int score = cfg.getConfig.getInt("player." + player.getName() + ".score");```
 
+*Also you can copy CAPI.java to your project and use it there.*
+
 [My telegram channel](https://t.me/+jdEGFkoI-_dlYjZi)
