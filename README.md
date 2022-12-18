@@ -10,7 +10,7 @@ A simple Plugin API for plugin developers that allows you to create additional c
 Config after changes:
 ```
 Player:
-    Steve:
+    just_lofe:
         Score: 15
 ```
 5. Output: ```int score = cfg.getConfig.getInt("player." + player.getName() + ".score");```
