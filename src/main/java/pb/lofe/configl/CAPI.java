@@ -9,14 +9,14 @@ import java.io.IOException;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 
-public class ConfigAPI {
+public class CAPI {
     // Creates a simple config, before save instance of config, call 'saveDefaultConfig();' for creating plugin folder.
-    public static class FastConfig {
+    public static class Config {
         private File file;
 
         private FileConfiguration config;
 
-        public FastConfig(String name, File dataFolder) {
+        public Config(String name, File dataFolder) {
             this.file = new File(dataFolder, name);
             try {
                 if (!this.file.exists() && !this.file.createNewFile())
