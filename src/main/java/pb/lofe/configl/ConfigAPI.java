@@ -8,7 +8,6 @@ import java.io.File;
 import java.io.IOException;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
-import org.bukkit.plugin.java.JavaPlugin;
 
 public class ConfigAPI {
     // Creates a simple config, before save instance of config, call 'saveDefaultConfig();' for creating plugin folder.
@@ -17,7 +16,7 @@ public class ConfigAPI {
 
         private FileConfiguration config;
 
-        public FastConfig(String name, File dataFolder, JavaPlugin plugin) {
+        public FastConfig(String name, File dataFolder) {
             this.file = new File(dataFolder, name);
             try {
                 if (!this.file.exists() && !this.file.createNewFile())
