@@ -17,4 +17,4 @@ Player:
 
 *Also you can copy CAPI.java to your project and use it there.*
 
-[My telegram channel](https://t.me/+jdEGFkoI-_dlYjZi)
+[My telegram](https://t.me/@just_lofe)
